@@ -1,6 +1,6 @@
 ## 테스트
 
-'''mermaid
+```mermaid
 
 classDiagram
   class UserInterface {
