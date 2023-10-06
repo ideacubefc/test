@@ -1,1 +1,46 @@
-1. 주
+### 1. github 공개 레포지토리를 만들고 URL을 공개하십시오. 
+https://github.com/ideacubefc/test/tree/main
+
+2. 개발자용 프롬프트 3가지 이상을 작성하시오 ( 그 중 한가지는 UML 과제 )
+
+from flask import Flask, render_template, request, redirect, url_for
+import pandas as pd
+import matplotlib.pyplot as plt
+
+app = Flask(__name__)
+
+# 가상의 설문 데이터를 대신 사용
+survey_data = {
+    'Q1': [4, 5, 3, 4, 5],
+    'Q2': [3, 4, 5, 4, 3],
+    # 다른 설문 문항들...
+}
+
+@app.route('/')
+def home():
+    return render_template('index.html', data=survey_data)
+
+@app.route('/report')
+def generate_report():
+    # 설문 데이터를 데이터프레임으로 변환
+    df = pd.DataFrame(survey_data)
+
+    # 간단한 통계 정보 생성
+    summary = df.describe()
+
+    # 설문 결과를 시각화 (예: 막대 그래프)
+    plt.figure(figsize=(8, 6))
+    df.mean().plot(kind='bar')
+    plt.title('평균 응답 값')
+    plt.xlabel('질문 번호')
+    plt.ylabel('평균 점수')
+    plt.savefig('static/plot.png')
+
+    return render_template('report.html', summary=summary.to_html(), plot='static/plot.png')
+
+if __name__ == '__main__':
+    app.run(debug=True)
+
+
+3. ADA 프롬프트 3가지이상을 작성하시오.
+4. ChatGPT 플러그인 프롬프트 3가지 이상을 작성하시오.
