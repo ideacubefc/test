@@ -1,7 +1,9 @@
-### 1. github 공개 레포지토리를 만들고 URL을 공개하십시오. 
+## 1. github 공개 레포지토리를 만들고 URL을 공개하십시오. 
 https://github.com/ideacubefc/test/tree/main
 
-2. 개발자용 프롬프트 3가지 이상을 작성하시오 ( 그 중 한가지는 UML 과제 )
+## 2. 개발자용 프롬프트 3가지 이상을 작성하시오 ( 그 중 한가지는 UML 과제 )
+(1) 너는 시스템 설계 및 아키텍처 전문가야. 설문조사 시스템을 설계하는 방법을 알려줘. 
+Python과 Flask 웹 프레임워크를 사용하여 간단한 설문조사 시스템에 리포팅 및 분석 기능을 추가하는 코드 생성.
 
 from flask import Flask, render_template, request, redirect, url_for
 import pandas as pd
