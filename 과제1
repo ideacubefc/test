@@ -5,6 +5,7 @@ https://github.com/ideacubefc/test/tree/main
 (1) 너는 시스템 설계 및 아키텍처 전문가야. 설문조사 시스템을 설계하는 방법을 알려줘. 
 Python과 Flask 웹 프레임워크를 사용하여 간단한 설문조사 시스템에 리포팅 및 분석 기능을 추가하는 코드 생성.
 
+```
 from flask import Flask, render_template, request, redirect, url_for
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -42,7 +43,7 @@ def generate_report():
 
 if __name__ == '__main__':
     app.run(debug=True)
-
+```
 
 3. ADA 프롬프트 3가지이상을 작성하시오.
 4. ChatGPT 플러그인 프롬프트 3가지 이상을 작성하시오.
