@@ -1,5 +1,4 @@
-```
-mermaid
+```mermaid
 classDiagram
     class 설문조사시스템 {
         +요구사항 정의()
