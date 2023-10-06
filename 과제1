@@ -3,7 +3,7 @@ https://github.com/ideacubefc/test/tree/main
 
 ## 2. 개발자용 프롬프트 3가지 이상을 작성하시오 ( 그 중 한가지는 UML 과제 )
 
-(1) 너는 시스템 설계 및 아키텍처 전문가야. 설문조사 시스템을 설계하는 방법을 알려줘. 
+## (1) 너는 시스템 설계 및 아키텍처 전문가야. 설문조사 시스템을 설계하는 방법을 알려줘. 
 설문조사 시스템을 설계하는 것은 다양한 요소를 고려하고 체계적인 접근이 필요한 작업입니다. 아래는 설문조사 시스템을 설계할 때 고려해야 할 주요 단계와 요소에 대한 개요입니다.
 
 요구 사항 정의:
@@ -44,7 +44,7 @@ https://github.com/ideacubefc/test/tree/main
 해당 지역 또는 산업에 적용되는 규정과 법률을 준수하도록 시스템을 구성하고 문서화합니다.
 이러한 단계를 따르면 설문조사 시스템을 효과적으로 설계하고 구축할 수 있으며, 사용자들이 원활하게 설문을 작성하고 결과를 분석할 수 있게 됩니다.
 
-(2) 제시한 내용을 Mermaid Flow Chart를 통해 UML로 만들어줘.
+## (2) 제시한 내용을 Mermaid Flow Chart를 통해 UML로 만들어줘.
 https://github.com/ideacubefc/test/blob/main/uml.md
 
 ```
@@ -92,7 +92,7 @@ classDiagram
     리포트 -- 리포트: 결과 분석
 ```
 
-(3) Python과 Flask 웹 프레임워크를 사용하여 간단한 설문조사 시스템에 리포팅 및 분석 기능을 추가하는 코드 생성.
+## (3) Python과 Flask 웹 프레임워크를 사용하여 간단한 설문조사 시스템에 리포팅 및 분석 기능을 추가하는 코드 생성.
 
 ```
 from flask import Flask, render_template, request, redirect, url_for
@@ -134,5 +134,16 @@ if __name__ == '__main__':
     app.run(debug=True)
 ```
 
-3. ADA 프롬프트 3가지이상을 작성하시오.
+## 3. ADA 프롬프트 3가지이상을 작성하시오.
+
+## (1) 첨부한 이미지를 모노톤으로 변환하세요.
+네, 이미지를 모노톤으로 변경하겠습니다. 모노톤 이미지는 보통 흑백 이미지로 알려져 있습니다.
+먼저, 업로드한 이미지를 확인한 후 흑백으로 변환하겠습니다.
+Finished working
+Show work
+https://fileserviceuploadsperm.blob.core.windows.net/files/8ae3bc53-3baa-4a14-a32c-ce30175a72b5?se=2023-10-06T16%3A34%3A08Z&sp=r&sv=2021-08-06&sr=b&rscd=attachment%3B%20filename%3D3f840dd7-8362-414d-9e72-24b6d6ac6ffc&sig=gXVgyDV%2BZgdgHcxznmPbyXLehI7Xml%2BNBpkhrh7n/%2BQ%3D
+이미지를 모노톤으로 변환했습니다.
+변환된 이미지를 다운로드하시겠습니까?
+
+
 4. ChatGPT 플러그인 프롬프트 3가지 이상을 작성하시오.
